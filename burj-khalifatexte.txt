@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BURJ KHALIFA</title>
+        <link rel="stylesheet" href="burj-khalifa.css">
+    </head>
+    <body>        
+        <header>
+            <div class="container">
+                <div class="navbar" >
+                    <img src="logo.jfif"  class="logo">
+                     <nav>
+                         <ul>
+                             <li><a href="index.html"><span></span>ACCUEIL</a></li>
+                             <li ><a href="louvre.html"><span></span>MUSEE DU LOUVRE</a></li>
+                             <li><a href="taj-mahal.html"><span></span>TAJ MAHAL</a></li>
+                             <li ><a href="zanzibar.html"><span></span>ZANZIBAR</a></li>
+                             <li ><a href="disneyland.html"><span></span>DISNEY LAND</a></li>
+                             <li class="active"><a href="burj-khalifa.html"><span></span>BURJ KHALIFA</a></li>   
+                         </ul>
+                     </nav>
+                </div>
+        </header>
+        <div id="site">
+            <div class="barre_image">
+                <h1 class="titre">BURJ KHALIFA</h1>
+            </div>
+            <hr><br>
+            <section> 
+                <article>
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4LuBVXWpDss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
+                    <p>Burj Khalifa est un gratte-ciel situé à Dubaï aux Émirats arabes unis, devenu en mai 2008 la plus haute structure humaine jamais construite. Sa hauteur finale, atteinte le 17 janvier 2009, est de 828 mètres. Elle forme le cœur d’un nouveau quartier : Downtown Dubai. L'inauguration et l'ouverture partielle ont eu lieu le 4 janvier 2010.
+
+                        À l'extérieur, WET Enterprises a conçu un système de fontaines pour un coût de  800 millions de dirhams (217 millions de dollars). Illuminé par 6600 lumières et 50 projecteurs colorés, il mesure 270 m (900 pieds) de long et projette de l'eau à 150 m (500 pieds) dans les airs, accompagné d'une gamme de musique classique à contemporaine arabe et autres. C'est la deuxième plus grande fontaine chorégraphiée au monde.  Le 26 octobre 2008, Emaar a annoncé que sur la base des résultats d'un concours de dénomination, la fontaine s'appellerait la fontaine de Dubaï. 
+                        
+                        Burj Khalifa est entouré d'un parc de 11 ha (27 acres) conçu par les architectes paysagistes SWA Group. Comme la tour, la conception du parc était basée sur la fleur des Hymenocallis , une plante du désert. Au centre du parc se trouve la salle d'eau, qui est une série de piscines et de fontaines à jets d'eau. Les bancs et les enseignes intègrent des images de Burj Khalifa et de la fleur Hymenocallis .
+                        Les plantes sont arrosées par l'eau collectée du système de refroidissement du bâtiment. Le système fournit annuellement 68 000 000 L (15 000 000 gal imp).  WET Enterprises , qui a également développé la fontaine de Dubaï , a développé les six dispositifs de l'eau du parc.
+                        
+                        
+                        Plus de 2 millions de personnes visitent la tour chaque année. Cette attraction est très fréquentée, et il vaut mieux réserver sa place avant de venir (agences de voyage, sites internet, hôtels...).
+                        Les visites s'effectuent entre 8 h et 23 h 30 tous les jours. Les prix varient en fonction de la prestation : il faut compter 125 à 200 dirhams pour aller au 124e étage (soit 452 m) et 350 à 500 dirhams pour aller au 148e étage (soit 555 m).
+                    </p>                                                                  
+                    </article>   
+                    <div class="contenu_carou_auto">
+                        <div class="caroussel-image">
+                        <img src="burj-khalifa.jpg" alt>
+                        <img src="burj-khalifa1.jpg" alt>
+                        <img src="burj-khalifa2.jpg" alt>
+                        <img src="burj-khalifa3.jpg" alt>
+                        <img src="burj-khalifa4.jpg" alt>
+                        <img src="burj-khalifa5.jpg" alt>
+                        <img src="burj-khalifa6.jpg" alt>
+                        <img src="burj-khalifa7.jpg" alt>
+                        </div>
+                        </div>
+                        </div>	        
+            </section><hr>
+            <body>
+        </div>
+        <footer>
+                <h3> <marquee behavior="s" direction="left">&copy;DIA&DJI ,Tous Droits Réservés</marquee></h3> 
+        </footer>
+    </body>
+</html> 

@@ -1,0 +1,154 @@
+
+body{
+    background-color: lavender;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display:flex;
+    align-items: center;
+
+}
+.titre{
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav{
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+  }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    letter-spacing: 1px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+nav ul li a:hover{
+    background-color:black ;
+    color: white;
+    box-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
+  }
+nav ul li.active a{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
+  }
+#site{
+    width: 1000px;
+    margin: auto;
+}
+.video{
+    margin-left:22%}
+p{
+    font-size: 20px;
+} 
+*{box-sizing : border-box}
+
+img{max-width:100%}
+
+.contenu_carou_auto{
+
+margin:2rem auto;
+width:420px;
+height:279px;
+perspective:8000px
+	
+}
+		
+.caroussel-image{
+	
+animation:rotation 24s infinite alternate linear;	
+transform-style:preserve-3d;
+position:relative;	
+
+}
+
+.caroussel-image img{
+	
+position: absolute;
+top:0;
+left: 0;
+	
+	
+	}
+
+
+		
+.caroussel-image img{
+	
+filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
+width:400px;
+height:266px;
+left:10px;
+outline:1px solid transparent;
+backface-visibility:hidden
+	
+	}
+		
+.caroussel-image img:nth-child(1){
+	
+transform:translate3d(0,0,495px)
+		
+		}
+		
+.caroussel-image img:nth-child(2){
+	
+transform:rotateY(45deg) translateZ(495px)
+	
+		}
+		
+.caroussel-image img:nth-child(3){
+	
+	transform:rotateY(90deg) translateZ(495px)
+	
+	}
+	
+.caroussel-image img:nth-child(4){
+	
+	transform:rotateY(135deg) translateZ(495px)
+	
+	}
+	
+.caroussel-image img:nth-child(5){
+	
+	transform:rotateY(180deg) translateZ(495px)
+	
+	}
+	
+.caroussel-image img:nth-child(6){
+	
+	transform:rotateY(225deg) translateZ(495px)
+	
+	}
+	
+.caroussel-image img:nth-child(7){
+	
+	transform:rotateY(270deg) translateZ(495px)
+	
+	}
+	
+.caroussel-image img:nth-child(8){
+	
+	transform:rotateY(315deg) translateZ(495px)
+	
+	}
+
+	
+
+	
+@keyframes rotation{
+from{transform:rotatey(0)}
+to{transform:rotatey(1turn)}}
